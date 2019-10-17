@@ -1,0 +1,88 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+/* 图片 */
+.wrapper {
+  position: relative;
+  margin: 100px auto;
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+}
+.wrapper ul {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 2000px;
+  height: 200px;
+}
+.wrapper ul li {
+  float: left;
+  width: 400px;
+  height: 200px;
+}
+.wrapper ul li img {
+  width: 400px;
+  height: 200px;
+}
+
+/* 圆点 */
+.wrapper .sliderIndex {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 80px;
+  height: 20px;
+  margin-left: -40px;
+  border-radius: 10px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+}
+.wrapper .sliderIndex i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  margin: 6px 4px;
+  cursor: pointer;
+}
+.wrapper .sliderIndex i.active {
+  background: #666;
+}
+
+/* 按钮 */
+.wrapper .btn {
+  position: absolute;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  padding-top: 4px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+.wrapper:hover .btn {
+  display: block;
+}
+.wrapper .btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.wrapper .btn.leftBtn {
+  left: -15px;
+  top: 50%;
+  margin-top: -15px;
+  padding-left: 15px;
+  border-radius: 50%;
+}
+.wrapper .btn.rightBtn {
+  left: 385px;
+  top: 50%;
+  margin-top: -15px;
+  padding-left: 3px;
+  border-radius: 50%;
+}
