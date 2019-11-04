@@ -1,8 +1,8 @@
 # 原生JS实现轮播图
 
 ---
-### 效果图：   
-<img src="https://github.com/Hyung7/Carousel/blob/master/pic.gif" height=200 />
+### 效果展示：   
+[https://hyung7.github.io/Carousel/](https://hyung7.github.io/Carousel/)
 
 ---
 ### 大概思路：
